@@ -43,8 +43,16 @@ public class Exercicio10_JavaBasico2 {
 		}
 		System.out.println("\n");
 		int numeros4[] = new int[10];
-		//3 4 7 12 19 28 39 52 67 84 nao entendi a logica
-		
+		int temp= 3;
+		for(int x =0 ;x<10;x++) {
+			
+			numeros4[x] = x+temp;
+			 temp = x+temp;
+		}
+		for(int n: numeros4) {
+			System.out.print(n+" ");
+			
+		}
 		
 		
 	}

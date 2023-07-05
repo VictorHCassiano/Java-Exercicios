@@ -22,6 +22,7 @@ public class Exercicio11_JavaBasico2 {
 		media = media/numero_alunos;
 		
 		System.out.println("A media dos alunos eh "+media);
+		sc.close();
 	}
 
 }
