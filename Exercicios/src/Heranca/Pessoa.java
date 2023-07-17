@@ -5,9 +5,6 @@ public class Pessoa {
 	public String cpf;
 	public Date data_nascimento;
 	
-	public Pessoa() {
-		
-	}
 	
 	public Pessoa(String _nome,String _cpf,Date _data) {
 		this.nome = _nome;
